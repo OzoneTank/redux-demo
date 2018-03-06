@@ -4,6 +4,7 @@ import './App.css';
 
 import TodoList from './containers/TodoListContainer';
 import TodoField from './containers/TodoFieldContainer';
+import Info from './containers/InfoContainer';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <h2>Todo List</h2>
         <TodoList />
         <TodoField />
+        <Info />
       </div>
     );
   }

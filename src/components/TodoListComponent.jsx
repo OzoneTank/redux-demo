@@ -25,7 +25,7 @@ const TodoListComponent = ({ todos, actions }) => {
               </td>
             </tr>
           )
-        }) : <tr><td colspan="2">no messages</td></tr>}
+        }) : <tr><td colSpan="2">no messages</td></tr>}
       </tbody>
     </table>
   );

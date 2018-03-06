@@ -22,7 +22,7 @@ class TodoFieldComponent extends Component {
           value={this.state.message}
           onChange={(e) => this.setState({ message: e.target.value})}
         />
-        <div class="App-button" onClick={this.addTodo}>ADD</div>
+        <div className="App-button" onClick={this.addTodo}>ADD</div>
       </div>
     )
   }

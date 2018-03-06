@@ -1,9 +1,11 @@
 import {
   combineReducers
 } from 'redux-immutable';
+import info from './info';
 import todos from './todos';
 
 const appReducer = combineReducers({
+  info,
   todos
 });
 
